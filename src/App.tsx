@@ -22,11 +22,11 @@ const App = () => {
         </div>
         
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/sponsors" element={<Sponsors />} />
-          <Route path="/supportus" element={<SupportUs />} />
+          <Route path="/richardson-robotics" element={<Home />} />
+          <Route path="/richardson-robotics/about" element={<About />} />
+          <Route path="/richardson-robotics/contact" element={<Contact />} />
+          <Route path="/richardson-robotics/sponsors" element={<Sponsors />} />
+          <Route path="/richardson-robotics/supportus" element={<SupportUs />} />
         </Routes>
         
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -35,7 +35,7 @@ const App = () => {
           </div>
         </div>
       </Router>
-      
+
     </div>
   );
 }
