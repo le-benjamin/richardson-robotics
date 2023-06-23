@@ -56,7 +56,7 @@ const CustomLink = ({ to, className, children, ...props}: any) => {
   const isActive = useMatch({ path: resolvedPath.pathname, end: true});
   return (
     <li className={(isActive ? "active" : "") + className}>
-      <Link to={to} {...props}>{children}</Link>
+      <Link to={`richardson-robotics/${to}`} {...props}>{children}</Link>
     </li>
   )
 }
