@@ -1,10 +1,6 @@
-import React from 'react'
 import styles from '../style';
-import { footerLinks, socialMedia } from '../constants';
-import { Link } from 'react-router-dom';
+import {  socialMedia } from '../constants';
 
-import logo from '../assets/logo.svg';
-import { AiFillTwitterCircle } from 'react-icons/ai';
 
 const Footer = () => {
   return (

@@ -1,6 +1,5 @@
 import { ReactNode, useState, useEffect } from 'react'
 import { FaChevronLeft, FaChevronRight, FaRegCircle, FaCircle } from 'react-icons/fa'
-import { RxDotFilled } from 'react-icons/rx';
 
 let interval: any = null; // Declare the interval variable outside the component function
 

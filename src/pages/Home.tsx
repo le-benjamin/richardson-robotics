@@ -1,6 +1,6 @@
 import styles from '../style'
 import { slides } from '../constants'
-import Carousel from '../components/Carousel'
+import { Carousel } from '../components'
 import { Link } from 'react-router-dom'
 import { frc_logo } from '../assets'
 

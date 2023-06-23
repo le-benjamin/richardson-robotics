@@ -1,5 +1,4 @@
-import {  facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
-import { banner, teamlogo2021, teamphoto } from "../assets/slides";
+import { banner, qualityphoto, teamphoto } from "../assets/slides";
 import { FaInstagram, FaFacebook, FaTwitter, FaTiktok } from "react-icons/fa";
 
 export const slides = [
@@ -9,7 +8,7 @@ export const slides = [
   },
   {
     id: "slide-2",
-    img: teamlogo2021
+    img: qualityphoto
   },
   {
     id: "slide-3",
