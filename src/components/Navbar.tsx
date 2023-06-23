@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar relative">
-      <Link to="/">
+      <Link to="/richardson-robototics/">
         <img src={logo} alt="logo" className="w-[48px] h-[48px]" />
       </Link>
 
